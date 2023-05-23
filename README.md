@@ -21,4 +21,16 @@ sudo apt update && sudo apt install terraform
 ```
 terraform init
 terraform apply
+terraform destroy
+```
+
+## AWS
+
+```
+bash credentials.sh
+terraform init
+terraform fmt
+terraform validate # check if configuration is valid
+terraform apply
+terraform show
 ```
